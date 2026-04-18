@@ -54,3 +54,14 @@ if __name__ == "__main__":
     print(f"Bot encendido con el modelo: {MODELO_ACTIVO}")
     bot.infinity_polling()
   
+import http.server
+import socketserver
+import threading
+
+def run_server():
+    PORT = 8080
+    Handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", PORT), Handler) as httpd:
+        httpd.serve_forever()
+
+threading.Thread(target=run_server, daemon=True).start()
