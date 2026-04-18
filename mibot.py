@@ -4,7 +4,7 @@ import os
 
 # ================= CONFIGURACIÓN =================
 # 1. Pega aquí el Token de Telegram que te dio BotFather
-TELEGRAM_TOKEN = '8694998458:AAEpdmFLt0aAhP85WpRXRMIQEqigGz-tS5k'
+TELEGRAM_TOKEN = '8694998458:AAFUxhAUF0rttMSED__VfOvi5Zhx352MArg'
 
 # 2. Pega aquí la API Key que sacaste de Google AI Studio
 GEMINI_API_KEY = 'AIzaSyB0cj2r5be8iQYQtedXDr63tuOsDxjsUiU'
